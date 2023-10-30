@@ -104,15 +104,17 @@ input{
 } 
 
 .sideNavigationBar { 
-	height: 100%; 
-	position: fixed; 
+	display: none;
+	/* width: 100%;
+	height: fit-content;  */
+	/* position: fixed; 
 	top: 0; 
 	right: 0%; 
 	background-color: rgb(10, 117, 123); 
 	overflow-x: hidden; 
 	transition: 0.3s ease-in; 
 	padding-top: 60px; 
-	display: none; 
+	display: block;  */
 } 
 
 .sideNavigationBar a { 
@@ -132,6 +134,7 @@ input{
 	font-size: 16px; 
 	border-style: none; 
 	font-weight: 700; 
+	z-index: 1;
 } 
 
 .sideNavigationBar a:hover { 
